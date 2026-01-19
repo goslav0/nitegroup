@@ -233,10 +233,13 @@ a {
   height: 80px;
   background: linear-gradient(to bottom, transparent, #000);
 }
-/* DESKTOP – zmniejszamy slider */
+/* DESKTOP – slider jako wyśrodkowany box */
 @media (min-width: 1024px) {
   .slider {
-    max-height: 420px;   /* kontrola wysokości */
+    max-width: 720px;
+    margin: 40px auto 60px;
+    border-radius: 20px;
+    overflow: hidden;
   }
 
   .slider img {
