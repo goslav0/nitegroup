@@ -498,3 +498,23 @@ a {
   }
 
 }
+/* =========================
+   MOBILE – UNIFORM CONTENT OFFSET
+========================= */
+@media (max-width: 768px) {
+
+  body {
+    padding-top: 76px; /* WYSOKOŚĆ TOPBARA + ODDECH */
+  }
+
+}
+@media (max-width: 768px) {
+
+  .slider,
+  .events,
+  .event-page {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+}
