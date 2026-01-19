@@ -251,50 +251,23 @@ a {
   }
 }
 /* =========================
-   MOBILE ONLY – TOPBAR
-========================= */
-@media (max-width: 768px) {
-
-  /* logo idealnie na środku */
-  .topbar-logo img {
-    height: 24px; /* mniejsze logo na mobile */
-  }
-
-  /* zmniejszamy tekst WYDARZENIA */
-  .topbar-right {
-    font-size: 0.7rem;
-    letter-spacing: 0.5px;
-  }
-
-  /* opcjonalnie IG TT też delikatniej */
-  .topbar-left {
-    font-size: 0.7rem;
-    opacity: 0.8;
-  }
-}
-@media (max-width: 768px) {
-  .topbar .topbar-right {
-    font-size: 0.65rem !important;
-  }
-
-  .topbar .topbar-left {
-    font-size: 0.65rem !important;
-  }
-
-  .topbar .topbar-logo img {
-    height: 22px !important;
-  }
-}
-/* =========================
-   MOBILE ONLY – FIX TOPBAR
-   NIE DOTYKA DESKTOPA
+   MOBILE ONLY – FIX TOPBARA
 ========================= */
 @media (max-width: 768px) {
 
   .topbar-right {
-    font-size: 0.5rem;      /* MNIEJSZY NAPIS */
-    letter-spacing: 0.3px;
+    font-size: 0.55rem;
+    letter-spacing: 0.4px;
     white-space: nowrap;
+  }
+
+  .topbar-left {
+    font-size: 0.55rem;
+    white-space: nowrap;
+  }
+
+  .top-center img {
+    height: 24px;
   }
 
 }
