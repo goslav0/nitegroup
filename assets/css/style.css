@@ -327,16 +327,6 @@ a {
   display: block;
 }
 /* =========================
-   MOBILE ONLY – DELIKATNE PRZESUNIĘCIE LOGO
-========================= */
-@media (max-width: 768px) {
-
-  .top-center {
-    transform: translateX(-10%);
-  }
-
-}
-/* =========================
    DESKTOP – EVENT PAGE LAYOUT
 ========================= */
 @media (min-width: 1024px) {
@@ -450,4 +440,42 @@ a {
     font-size: 1.2rem;
     cursor: pointer;
   }
+}
+/* =========================
+   MOBILE TOPBAR – FINAL (JAK NA MAIN)
+========================= */
+@media (max-width: 768px) {
+
+  .topbar {
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .topbar-left,
+  .topbar-right {
+    font-size: 0.7rem;
+    opacity: 0.85;
+    min-width: 44px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .top-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+  }
+
+  .top-center img {
+    height: 26px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
 }
