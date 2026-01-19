@@ -323,3 +323,6 @@ a {
     display: block;
   }
 }
+.mobile-menu.open {
+  display: block;
+}
