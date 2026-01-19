@@ -98,3 +98,69 @@ a {
   flex-direction: column;
   gap: 10px;
 }
+.event-description {
+  max-width: 600px;
+  margin: 40px auto 0;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.event-title {
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.event-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 30px;
+}
+
+.event-text p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.event-section {
+  margin-top: 30px;
+}
+
+.event-section h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.event-list {
+  list-style: none;
+  padding: 0;
+}
+
+.event-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.9rem;
+}
+
+.event-note {
+  margin-top: 30px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.event-note p {
+  margin-bottom: 10px;
+}
+
+.event-footer {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
