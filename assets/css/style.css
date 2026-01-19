@@ -16,22 +16,26 @@ a {
 }
 
 .topbar {
-  position: sticky;
-  top: 15px;
-  margin: 0 15px;
-  padding: 14px 20px;
-  border-radius: 16px;
+  position: relative; /* DODAJ TO, jeśli nie ma */
+}
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* lewa i prawa strona */
+.topbar-left,
+.topbar-right {
+  z-index: 2;
+}
 
-  background: rgba(20, 20, 20, 0.75);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+/* LOGO IDEALNIE NA ŚRODKU */
+.topbar-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  pointer-events: none;
+}
 
-  border: 1px solid rgba(255,255,255,0.08);
-  z-index: 1000;
+.topbar-logo img {
+  height: 28px;
 }
 
 .top-center img {
