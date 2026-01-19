@@ -224,3 +224,12 @@ a {
   border-radius: 999px;
   white-space: nowrap;
 }
+.slider::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to bottom, transparent, #000);
+}
