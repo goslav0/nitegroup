@@ -326,3 +326,13 @@ a {
 .mobile-menu.open {
   display: block;
 }
+/* =========================
+   MOBILE ONLY – DELIKATNE PRZESUNIĘCIE LOGO
+========================= */
+@media (max-width: 768px) {
+
+  .top-center {
+    transform: translateX(-55%);
+  }
+
+}
