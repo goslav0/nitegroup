@@ -247,6 +247,6 @@ a {
 }
 @media (min-width: 1024px) {
   .slider img:nth-child(3) {
-    object-position: center 60%;
+    object-position: center 40%;
   }
 }
