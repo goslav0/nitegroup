@@ -233,3 +233,14 @@ a {
   height: 80px;
   background: linear-gradient(to bottom, transparent, #000);
 }
+/* DESKTOP – zmniejszamy slider */
+@media (min-width: 1024px) {
+  .slider {
+    max-height: 420px;   /* kontrola wysokości */
+  }
+
+  .slider img {
+    height: 420px;
+    object-fit: cover;
+  }
+}
