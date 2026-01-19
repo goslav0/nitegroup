@@ -285,3 +285,16 @@ a {
     height: 22px !important;
   }
 }
+/* =========================
+   MOBILE ONLY – FIX TOPBAR
+   NIE DOTYKA DESKTOPA
+========================= */
+@media (max-width: 768px) {
+
+  .topbar-right {
+    font-size: 0.5rem;      /* MNIEJSZY NAPIS */
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+
+}
