@@ -250,3 +250,25 @@ a {
     object-position: center 50%;
   }
 }
+/* =========================
+   MOBILE ONLY – TOPBAR
+========================= */
+@media (max-width: 768px) {
+
+  /* logo idealnie na środku */
+  .topbar-logo img {
+    height: 24px; /* mniejsze logo na mobile */
+  }
+
+  /* zmniejszamy tekst WYDARZENIA */
+  .topbar-right {
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+  }
+
+  /* opcjonalnie IG TT też delikatniej */
+  .topbar-left {
+    font-size: 0.7rem;
+    opacity: 0.8;
+  }
+}
