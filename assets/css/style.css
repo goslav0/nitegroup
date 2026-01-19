@@ -271,3 +271,55 @@ a {
   }
 
 }
+/* =========================
+   HAMBURGER – MOBILE
+========================= */
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: #fff;
+  margin: 4px 0;
+  border-radius: 2px;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background: rgba(20,20,20,0.95);
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid rgba(255,255,255,0.1);
+  z-index: 999;
+}
+
+.mobile-menu a {
+  display: block;
+  font-size: 0.8rem;
+  padding: 6px 0;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .nav-desktop {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
