@@ -233,17 +233,18 @@ a {
   height: 80px;
   background: linear-gradient(to bottom, transparent, #000);
 }
-/* DESKTOP – slider jako wyśrodkowany box */
+/* DESKTOP – slider kontrolowany, ale wyraźny */
 @media (min-width: 1024px) {
   .slider {
-    max-width: 720px;
+    width: 85%;
+    max-width: 1100px;
     margin: 40px auto 60px;
-    border-radius: 20px;
+    border-radius: 24px;
     overflow: hidden;
   }
 
   .slider img {
-    height: 420px;
+    height: 520px;
     object-fit: cover;
   }
 }
