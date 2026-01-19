@@ -20,3 +20,12 @@ setInterval(() => {
   index = (index + 1) % slides.length;
   showSlide(index);
 }, 4000);
+
+const hamburger = document.querySelector('.hamburger');
+const mobileMenu = document.querySelector('.mobile-menu');
+
+if (hamburger && mobileMenu) {
+  hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+  });
+}
