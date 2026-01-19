@@ -412,3 +412,42 @@ a {
   }
 
 }
+/* =========================
+   MOBILE TOPBAR – JAK NA MAIN
+========================= */
+@media (max-width: 768px) {
+
+  .topbar {
+    height: 56px;                 /* TA SAMA WYSOKOŚĆ */
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .topbar-left,
+  .topbar-right {
+    font-size: 0.7rem;
+    opacity: 0.85;
+    min-width: 40px;              /* wyrównanie szerokości */
+    text-align: center;
+  }
+
+  .top-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .top-center img {
+    height: 26px;                 /* DOKŁADNIE JAK NA MAIN */
+  }
+
+  .hamburger {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}
