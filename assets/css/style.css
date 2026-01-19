@@ -256,18 +256,18 @@ a {
 @media (max-width: 768px) {
 
   .topbar-right {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
     letter-spacing: 0.4px;
     white-space: nowrap;
   }
 
   .topbar-left {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
     white-space: nowrap;
   }
 
   .top-center img {
-    height: 24px;
+    height: 28px;
   }
 
 }
