@@ -245,3 +245,8 @@ a {
     object-position: center 20%;
   }
 }
+@media (min-width: 1024px) {
+  .slider img:nth-child(3) {
+    object-position: center 80%;
+  }
+}
