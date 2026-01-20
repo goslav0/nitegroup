@@ -512,3 +512,10 @@ a {
   object-fit: contain;
   display: block;
 }
+/* === SOCIAL ICONS – WHITE === */
+.social-links img {
+  width: 24px;
+  height: 24px;
+  display: block;
+  filter: invert(1);
+}
