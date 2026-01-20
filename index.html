@@ -19,11 +19,9 @@
   </div>
 
   <div class="topbar-right">
-  <button class="hamburger" id="hamburgerBtn">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="wydarzenia.html">Wydarzenia</a>
 </div>
   <!-- DESKTOP -->
   <a href="wydarzenia.html" class="nav-desktop">WYDARZENIA</a>
@@ -70,13 +68,5 @@
 </section>
 
 <script src="assets/js/main.js"></script>
-<script>
-  const btn = document.getElementById("hamburgerBtn");
-  const menu = document.getElementById("mobileMenu");
-
-  btn.addEventListener("click", () => {
-    menu.classList.toggle("open");
-  });
-</script>
 </body>
 </html>
