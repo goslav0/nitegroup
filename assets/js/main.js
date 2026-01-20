@@ -21,11 +21,13 @@ setInterval(() => {
   showSlide(index);
 }, 4000);
 
-const hamburger = document.querySelector('.hamburger');
-const mobileMenu = document.querySelector('.mobile-menu');
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("hamburgerBtn");
+  const menu = document.getElementById("mobileMenu");
 
-if (hamburger && mobileMenu) {
-  hamburger.addEventListener('click', () => {
-    mobileMenu.classList.toggle('open');
+  if (!btn || !menu) return;
+
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("open");
   });
-}
+});
