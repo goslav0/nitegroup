@@ -498,3 +498,14 @@ a {
 .social-links a:hover img {
   opacity: 1;
 }
+/* =========================
+   TOPBAR – SOCIAL ICONS FIX
+========================= */
+.top-left.social-links img {
+  width: 18px !important;
+  height: 18px !important;
+  max-width: 18px;
+  max-height: 18px;
+  object-fit: contain;
+  display: block;
+}
