@@ -463,11 +463,14 @@ a {
     white-space: nowrap;
   }
 
-  .top-center {
+   .top-center {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    pointer-events: none;
+  }
+
+  .top-center a {
+    pointer-events: auto;
   }
 
   .top-center img {
