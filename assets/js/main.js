@@ -1,14 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  /* =========================
-     SLIDER – TYLKO JEŚLI ISTNIEJE
-  ========================= */
+  // ===== SLIDER (tylko jeśli istnieje) =====
   const slides = document.querySelectorAll('.slides img');
   let index = 0;
 
   if (slides.length > 0) {
     function showSlide(i) {
-      slides.forEach(slide => slide.classList.remove('active'));
+      slides.forEach(s => s.classList.remove('active'));
       slides[i].classList.add('active');
     }
 
@@ -28,9 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 4000);
   }
 
-  /* =========================
-     HAMBURGER – WSZYSTKIE STRONY
-  ========================= */
+  // ===== HAMBURGER =====
   const btn = document.getElementById("hamburgerBtn");
   const menu = document.getElementById("mobileMenu");
 
