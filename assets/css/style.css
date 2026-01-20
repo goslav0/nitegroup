@@ -482,3 +482,22 @@ a {
   }
 
 }
+/* =========================
+   TOPBAR – SOCIAL ICONS (INLINE SVG)
+========================= */
+.social-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  fill: white;
+}
+
+.social-icon:hover svg {
+  opacity: 0.9;
+}
