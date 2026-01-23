@@ -546,3 +546,64 @@ a {
 .footer-links a:hover {
   opacity: 1;
 }
+/* =========================
+   REGULAMIN – GLASS BOX (SO HARD STYLE)
+========================= */
+
+.regulamin-box {
+  max-width: 900px;
+  margin: 0 auto 120px;
+  padding: 40px 36px;
+
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.regulamin-content {
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  opacity: 0.9;
+}
+
+/* intro */
+.regulamin-content > p:first-child {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 28px;
+}
+
+/* numeracja */
+.regulamin-content ol {
+  padding-left: 20px;
+}
+
+.regulamin-content li {
+  margin-bottom: 16px;
+}
+
+/* listy punktowane */
+.regulamin-content ul {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+.regulamin-content ul li {
+  margin-bottom: 8px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .regulamin-box {
+    padding: 26px 20px;
+    border-radius: 16px;
+  }
+
+  .regulamin-content {
+    font-size: 0.9rem;
+  }
+}
